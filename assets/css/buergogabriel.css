@@ -1,18 +1,11 @@
 @charset "UTF-8";
 /*!
 =========================================================
-* JohnDoe Landing page
+* BUERGO GABRIEL page
 =========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
+
 :root {
   --blue: #79A9F5;
   --indigo: #C45F90;
@@ -162,7 +155,7 @@ sup {
 }
 
 a {
-  color: #F85C70;
+  color: #47D8E0;
   text-decoration: none;
   background-color: transparent;
 }
@@ -11006,7 +10999,7 @@ p {
   display: block;
   width: 25px;
   height: 1.5px;
-  background-color: #F85C70;
+  background-color: #005ff5;
 }
 
 .breadcrumb {
@@ -11410,7 +11403,7 @@ pre .code {
 }
 
 .navbar .nav-link.active {
-  color: #F85C70 !important;
+  color: #005ff5 !important;
 }
 
 .navbar .brand {

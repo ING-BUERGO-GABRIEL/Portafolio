@@ -1,15 +1,7 @@
 /*!
 =========================================================
-* JohnDoe Landing page
+* BUERGO GABRIEL page
 =========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
 // smooth scroll
@@ -147,4 +139,22 @@ function initMap() {
         }
       ]
     });
+    
+// Calcular la edad y mostrarla
+var fechaNacimiento = new Date("09/25/1996");
+var fechaActual = new Date();
+
+var edad = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
+
+// Comprobar si ya ha pasado el cumpleaños de este año
+if (
+    fechaNacimiento.getMonth() > fechaActual.getMonth() ||
+    (fechaNacimiento.getMonth() === fechaActual.getMonth() &&
+        fechaNacimiento.getDate() > fechaActual.getDate())
+) {
+    edad--;
+}
+
+// Mostrar la edad en el elemento correspondiente
+document.getElementById("edad").innerText = `Edad : ${edad} años`;
 }
