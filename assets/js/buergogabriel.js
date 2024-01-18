@@ -156,5 +156,5 @@ if (
 }
 
 // Mostrar la edad en el elemento correspondiente
-document.getElementById("edad").innerText = `Edad : ${edad} años`;
+document.getElementById("edad").innerText = `Edad :  sss ${edad} años`;
 }
