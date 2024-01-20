@@ -66,3 +66,10 @@ function calcularYMostrarEdad() {
   document.getElementById("edad").innerText = ` ${edad} años`;
 }
 
+// Redireccionar a enlace de WhatsApp al hacer clic en el botón
+$(document).ready(function () {
+  $("#contactarBtn").on('click', function () {
+      window.location.href = "https://api.whatsapp.com/send?phone=59175399936";
+  });
+});
+
