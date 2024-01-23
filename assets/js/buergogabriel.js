@@ -71,5 +71,23 @@ $(document).ready(function () {
   $("#contactarBtn").on('click', function () {
       window.location.href = "https://api.whatsapp.com/send?phone=59175399936";
   });
+
+  // Imprimir CV al hacer clic en el botón con ID único
+  $("#imprimirCvBtn").on('click', function () {
+    // Reemplaza 'ruta/a/tu/cv.pdf' con la ruta correcta de tu archivo PDF
+    var pdfUrl = 'assets/doc/CV_LUIS_GABRIEL_BUERGO_BARRIONUEVO.pdf';
+    
+    // Abre una nueva ventana o pestaña con el PDF
+    window.open(pdfUrl, '_blank');
+    });
+
+    $("#descargarCvBtn").on('click', function () {
+        // Reemplaza 'ruta/a/tu/cv.pdf' con la ruta correcta de tu archivo PDF
+        var pdfUrl = 'assets/doc/CV_LUIS_GABRIEL_BUERGO_BARRIONUEVO.pdf';
+        
+        // Abre una nueva ventana o pestaña con el PDF
+        window.open(pdfUrl, '_blank');
+    });
+
 });
 
